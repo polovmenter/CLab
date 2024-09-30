@@ -5,14 +5,14 @@ void task117() {
 	double pounds = 15;
 	double kilograms = pounds * 0.4059;
 
-	printf("%f фунтов = %f килограмм", pounds, kilograms);
+	printf("%f С„СѓРЅС‚РѕРІ = %f РєРёР»Р»РѕРіСЂР°РјРј", pounds, kilograms);
 }
 
 void task118() {
 	double kilometers = 1;
 	double versts = kilometers / 1.0668;
 
-	printf("%f километров = %f верст", kilometers, versts);
+	printf("%f пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ = %f пїЅпїЅпїЅпїЅпїЅ", kilometers, versts);
 }
 
 void task119() {
@@ -20,7 +20,7 @@ void task119() {
 	double height = 10;
 	double area = width * height;
 	
-	printf("Площадь прямоугольника со сторонами %f и %f = %f", width, height, area);
+	printf("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ %f пїЅ %f = %f", width, height, area);
 }
 
 void task1110() {
@@ -28,7 +28,7 @@ void task1110() {
 	double footingLength = 4;
 	double area = height * footingLength / 2;
 
-	printf("Площадь равнобедренного треугольника с высотой %f и основанием %f = %f", height, footingLength, area);
+	printf("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ %f пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ %f = %f", height, footingLength, area);
 }
 
 void task1111() {
@@ -37,7 +37,7 @@ void task1111() {
 	double height = 6;
 	double area = (footing1 + footing2) / 2 * height;
 
-	printf("Площадь трапеции с основаниями %.3f и %.3f и высотой %.3f = %.3f", footing1, footing2, height, area);
+	printf("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ %.3f пїЅ %.3f пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ %.3f = %.3f", footing1, footing2, height, area);
 }
 
 void task1112() {
@@ -49,7 +49,7 @@ void task1112() {
 	double penCost = 3.5;
 	double result = copybookCost * copybookAmount + coverCost * coverAmount + penCost * penAmount;
 
-	printf("Стоимость %d тетрадей, %d обложек и %d карандашей = %.2f", copybookAmount, coverAmount, penAmount, result);
+	printf("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ %d пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, %d пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ %d пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ = %.2f", copybookAmount, coverAmount, penAmount, result);
 }
 
 void task1113() {
@@ -61,7 +61,7 @@ void task1113() {
 	double dillCost = 1.75;
 	double result = tomatoCost * tomatoAmount + cucumberCost * cucumberAmount + dillCost * dillAmount;
 
-	printf("Стоимость %d помидор, %d огурцов и %d пучков укропа = %.2f", tomatoAmount, cucumberAmount, dillAmount, result);
+	printf("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ %d пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, %d пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ %d пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ = %.2f", tomatoAmount, cucumberAmount, dillAmount, result);
 }
 
 int main() {
